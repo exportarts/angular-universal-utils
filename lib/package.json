@@ -1,6 +1,6 @@
 {
   "name": "@exportarts/angular-universal-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Collection of utilities we commonly use in Angular Universal projects",
   "author": {
     "name": "Exportarts",
