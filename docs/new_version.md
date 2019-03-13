@@ -18,4 +18,4 @@ Run `yarn build:lib`.
 ## 4. Publish library
 
 - `cd dist/lib`
-- `npm publish`
+- `npm publish --access public` (option required for scoped packages)
