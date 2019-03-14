@@ -4,6 +4,26 @@
 
 > Work in Progress... More featues and docs are coming in the future.
 
+## Installation
+
+```
+npm install --save-dev @exportarts/angular-universal-utils
+
+# or
+
+yarn add -D @exportarts/angular-universal-utils
+```
+
+## Usage
+
+Use the `prerenderApplication()` function to prerender an [Angular Universal App](https://github.com/angular/universal).
+
+All you have to provide is an array of routes to render and your compiled Universal App
+(similar to [this example](https://github.com/angular/universal-starter/blob/master/server.ts#L22)).
+
+Optionally, a simple sitemap can be generated. This feature is really basic at the moment and more
+configuration options will eventaully be available.
+
 ## Dependency Management
 
 The project in `./lib` has several peer-dependencies. Those are installed
