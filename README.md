@@ -23,7 +23,10 @@ All you have to provide is an array of routes to render and your compiled Univer
 (similar to [this example](https://github.com/angular/universal-starter/blob/master/server.ts#L22)).
 
 Optionally, a simple sitemap can be generated. This feature is really basic at the moment and more
-configuration options will eventaully be available.
+configuration options will eventually be available.
+
+The easiest way is to run the function with `ts-node`. Alternatively, you can build it with webpack and
+run it with regular `node`.
 
 ## Dependency Management
 

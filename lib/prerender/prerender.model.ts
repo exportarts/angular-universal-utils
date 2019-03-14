@@ -3,10 +3,11 @@ import { SitemapConfig } from '../sitemap/sitemap.model';
 export interface PrerenderConfig {
     routes: string[]
     /**
-     * Path to the built browser-app relative to `./dist/`.
+     * Path to the built browser-app relative to `process.cwd()`.
      * 
      * In a default app generated with `ng new`, this directory
-     * is `./dist/browser`, so you have to pass `'browser'`
+     * is usually `dist/<MY_APP>`. To be consistent with the server-app,
+     * we typically use `dist/browser` in our projects.
      */
     browserFolder: string;
     /**
