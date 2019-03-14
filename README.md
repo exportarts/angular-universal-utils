@@ -16,7 +16,8 @@ yarn add -D @exportarts/angular-universal-utils
 
 ## Usage
 
-Use the `prerenderApplication()` function to prerender an [Angular Universal App](https://github.com/angular/universal).
+Use the [`prerenderApplication()`](https://github.com/exportarts/angular-universal-utils/blob/master/lib/prerender/prerender.ts)
+function to prerender an [Angular Universal App](https://github.com/angular/universal).
 
 All you have to provide is an array of routes to render and your compiled Universal App
 (similar to [this example](https://github.com/angular/universal-starter/blob/master/server.ts#L22)).
