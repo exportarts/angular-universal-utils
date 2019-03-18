@@ -56,6 +56,6 @@ export async function prerenderApplication(config: PrerenderConfig) {
     // Generate sitemaps if configured
     if (config.sitemapConfig) {
       config.extras.logFunc(`Generating sitemap ...`);
-      await generateSitemap(config.sitemapConfig, config.routes, BROWSER_FOLDER);
+      await generateSitemap(config.sitemapConfig, BROWSER_FOLDER);
     }
 }
