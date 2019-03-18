@@ -10,8 +10,8 @@ export interface SitemapConfig {
 
 export interface RouteWithMetadata {
     url: string;
-    changeFreq?: string;
-    lastModISO?: string;
+    changefreq?: string;
+    lastmodISO?: string;
     priority?: number;
     androidLink?: string;
     mobile?: boolean;
