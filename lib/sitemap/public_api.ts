@@ -1,1 +1,1 @@
-export { SitemapConfig } from './sitemap.model';
+export { SitemapConfig, RouteWithMetadata, Link, Img } from './sitemap.model';
