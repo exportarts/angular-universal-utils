@@ -32,10 +32,12 @@
     },
     "whitelistedNonPeerDependencies": [
       "mkdir-recursive",
-      "sitemap"
+      "sitemap",
+      "dateformat"
     ]
   },
   "dependencies": {
+    "dateformat": "^3.0.3",
     "mkdir-recursive": "^0.4.0",
     "sitemap": "^2.1.0"
   },
