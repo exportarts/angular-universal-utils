@@ -30,5 +30,5 @@ export interface ExtraOptions {
 }
 
 export const DEFAULT_EXTRA_OPTIONS: ExtraOptions = {
-    logFunc: (message: string) => console.log(`[universal-utils] ${message}`)
+    logFunc: (message: string) => console.log(`[universal-utils@${new Date().toLocaleTimeString()}] ${message}`)
 }
