@@ -1,6 +1,7 @@
 {
   "name": "@exportarts/angular-universal-utils",
   "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Collection of utilities we commonly use in Angular Universal projects",
   "author": {
     "name": "Exportarts",
@@ -74,6 +75,6 @@
     "ts-node": "~7.0.0",
     "tsickle": "^0.34.3",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "~3.4.5"
   }
 }
