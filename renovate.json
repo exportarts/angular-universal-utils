@@ -1,5 +1,25 @@
 {
   "extends": [
     "config:base"
+  ],
+  "commitMessagePrefix": "Renovate:",
+  "labels": [
+    "renovate"
+  ],
+  "prCreation": "not-pending",
+  "assignees": [
+    "evolkmann"
+  ],
+  "stabilityDays": "3",
+  "masterIssue": true,
+  "packageRules": [
+    {
+      "groupName": "devDependencies",
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    }
   ]
 }
