@@ -1,0 +1,9 @@
+language: node_js
+cache: yarn
+node_js:
+  - "10"
+script:
+  - yarn build:lib
+after_success:
+  - yarn test:cov
+  - yarn upload-cov
