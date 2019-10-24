@@ -29,4 +29,5 @@ describe('generateSitemap()', () => {
         expect(existsSync(sitemapPath)).toBe(true);
         done();
     });
+    
 });
