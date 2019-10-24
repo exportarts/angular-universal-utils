@@ -37,9 +37,9 @@
     ]
   },
   "dependencies": {
-    "dateformat": "^3.0.3",
-    "mkdir-recursive": "^0.4.0",
-    "sitemap": "^2.1.0"
+    "dateformat": "3.0.3",
+    "mkdir-recursive": "0.4.0",
+    "sitemap": "2.2.0"
   },
   "peerDependencies": {
     "@angular/common": "^8.0.0",
