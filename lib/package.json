@@ -45,6 +45,6 @@
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0",
     "@angular/platform-server": "^8.0.0",
-    "@nguniversal/module-map-ngfactory-loader": "^7.1.1"
+    "@nguniversal/module-map-ngfactory-loader": "^7.1.1 || ^8.0.0"
   }
 }
