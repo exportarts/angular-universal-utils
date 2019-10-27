@@ -15,6 +15,11 @@
   "packageRules": [
     {
       "groupName": "devDependencies",
+      "excludePackagePatterns": [
+        "^@angular-devkit",
+        "^@angular",
+        "^@nguniversal"
+      ],
       "depTypeList": [
         "devDependencies"
       ],
