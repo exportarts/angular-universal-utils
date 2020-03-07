@@ -1,4 +1,10 @@
-# angular-universal-utils
+# angular-universal-utils (deprecated)
+
+## Deprecation Notice
+
+This project has been discontinued in favor of two better alternatives:
+- [The official prerender-builder](https://github.com/angular/universal/tree/master/modules/builders/src/prerender)
+- Scully as a Static-Site-Generator (https://github.com/scullyio/scully)
 
 [![npm](https://img.shields.io/npm/v/@exportarts/angular-universal-utils.svg?style=flat-square)](https://www.npmjs.com/package/@exportarts/angular-universal-utils)
 
